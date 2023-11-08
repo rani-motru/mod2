@@ -1,0 +1,50 @@
+body {
+    background: pink;
+    width: 100%;
+    height:100%;
+}
+.sidebar {  
+    background-color:green; 
+    grid-row-start: 1;
+    grid-row-end:3 ;
+    align-content:center;
+}
+.review {
+    background-color: yellow;
+    text-align: left;
+}
+
+.average {
+    background-color: blueviolet;
+    text-align: left;
+}
+
+.website {
+    background-color: aquamarine;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: left;
+}
+
+.sentiment {
+    background-color: cadetblue;
+  
+}
+
+.container {
+    display:grid;
+    background-color: brown;
+    width: 900px;
+    height: 90vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding:15px;
+    grid-gap: 25px;
+    border-radius:17px;
+}
+.graph {
+    background-color:darkmagenta;
+    height: 200px;
+     margin:5em;
+
+}
